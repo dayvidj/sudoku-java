@@ -9,13 +9,13 @@ e interaja com o tabuleiro conforme as regras do Sudoku.
 ### 🛠 Estrutura do Código
 O projeto está dividido em várias classes para manter o código organizado e fácil de manter:
 
-- **JogoSudoku**: Gerencia a interação com o jogador e o fluxo principal do jogo.
+- `JogoSudoku`: Gerencia a interação com o jogador e o fluxo principal do jogo.
 
-- **Tabuleiro**: Manipula os dados do tabuleiro, como números fixos e inseridos pelo jogador.
+- `Tabuleiro`: Manipula os dados do tabuleiro, como números fixos e inseridos pelo jogador.
 
-- **Util**: Fornece métodos utilitários para validação de números e verificação de conflitos.
+- `Util`: Fornece métodos utilitários para validação de números e verificação de conflitos.
 
-- **Main**: Contém o ponto de entrada do programa e exibe o menu ao usuário.
+- `Main`: Contém o ponto de entrada do programa e exibe o menu ao usuário.
 
 ### 📋 Funcionalidades Principais
 1. __Iniciar um novo jogo__: Exibe o tabuleiro inicial com os números fixos.
